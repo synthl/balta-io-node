@@ -6,7 +6,7 @@ const app = express(); // instânciando o express
 const router = express.Router(); // acessar as rotas
 
 // Conecta ao banco
-mongoose.connect('mongodb+srv://contatoleonardoap70:oUqedaIBO8ZePJdu@testing-backend.zunex6h.mongodb.net/');
+mongoose.connect('mongodb+srv://user:password@database.mongodb.net/');
 
 // Carrega os models
 const Product = require('./models/product')
